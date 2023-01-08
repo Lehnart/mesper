@@ -1,6 +1,6 @@
 from typing import Dict, Callable
 
-from mesper import Component, World
+from ..mesper import Component, World
 
 
 class KeyboardInput(Component):

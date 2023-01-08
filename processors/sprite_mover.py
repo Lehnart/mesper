@@ -1,7 +1,7 @@
-from components.sprite import Sprite
-from events.move_sprite import MoveSprite
-from events.set_sprite_position import SetSpritePosition
-from mesper import Processor
+from ..components.sprite import Sprite
+from ..events.move_sprite import MoveSprite
+from ..events.set_sprite_position import SetSpritePosition
+from ..mesper import Processor
 
 
 class SpriteMover(Processor):

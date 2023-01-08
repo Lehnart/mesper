@@ -1,6 +1,6 @@
 import pygame
 
-from components.sprite import Sprite
+from ...components.sprite import Sprite
 
 
 class TestSprite:

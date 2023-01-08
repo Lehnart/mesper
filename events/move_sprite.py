@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from mesper import Event
+from ..mesper import Event
 
 
 class MoveSprite(Event):

@@ -1,6 +1,6 @@
 import pytest
 
-from mesper import EventQueue, Event, Processor, World, Component, NoProcessorFoundException, \
+from ..mesper import EventQueue, Event, Processor, World, Component, NoProcessorFoundException, \
     EntityNotFoundException
 
 

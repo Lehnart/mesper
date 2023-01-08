@@ -2,8 +2,8 @@ import sys
 
 import pygame
 
-from components.keyboard_input import KeyboardInput
-from mesper import Processor
+from ..components.keyboard_input import KeyboardInput
+from ..mesper import Processor
 
 
 class Updater(Processor):

@@ -1,4 +1,4 @@
-from components.window import Window
+from ...components.window import Window
 
 
 class TestMessageQueue:
