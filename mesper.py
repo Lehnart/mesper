@@ -72,6 +72,10 @@ class World:
         self._last_process_datetime = datetime.datetime.now()
         self.process_dt = 0
 
+    def run(self):
+        while self.is_running:
+            self.process()
+
     def publish(self, event: Event):
         self._message_queue.add(event.key(), event)
 
