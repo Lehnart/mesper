@@ -1,7 +1,7 @@
-from engine.components.grid_position import GridPosition
-from engine.events.move_on_grid import MoveOnGrid
-from engine.mesper import World
-from engine.processors.grid_mover import GridMover
+from components.grid_position import GridPosition
+from events.move_on_grid import MoveOnGrid
+from mesper import World
+from processors.grid_mover import GridMover
 
 
 class TestGridPosition:

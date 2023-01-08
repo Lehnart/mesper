@@ -3,9 +3,9 @@ from typing import List
 
 import pygame
 
-from engine.components.sprite import Sprite
-from engine.components.window import Window
-from engine.mesper import Processor
+from components.sprite import Sprite
+from components.window import Window
+from mesper import Processor
 
 
 class Renderer(Processor):

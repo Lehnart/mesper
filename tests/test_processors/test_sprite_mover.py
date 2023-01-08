@@ -1,9 +1,9 @@
 import pygame
 
-from engine.components.sprite import Sprite
-from engine.events.move_sprite import MoveSprite
-from engine.mesper import World
-from engine.processors.sprite_mover import SpriteMover
+from components.sprite import Sprite
+from events.move_sprite import MoveSprite
+from mesper import World
+from processors.sprite_mover import SpriteMover
 
 
 class TestSpriteMover:

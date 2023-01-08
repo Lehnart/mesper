@@ -1,9 +1,9 @@
 import pygame.event
 import pytest
 
-from engine.components.keyboard_input import KeyboardInput
-from engine.mesper import World, Event
-from engine.processors.updater import Updater
+from components.keyboard_input import KeyboardInput
+from mesper import World, Event
+from processors.updater import Updater
 
 
 class TestUpdater:

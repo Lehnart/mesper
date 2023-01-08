@@ -2,7 +2,7 @@ from typing import Tuple
 
 import pygame
 
-from engine.mesper import Component
+from mesper import Component
 
 
 class Sprite(Component):

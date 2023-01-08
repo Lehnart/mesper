@@ -1,9 +1,9 @@
 from typing import Tuple
 
-from engine.mesper import Event
+from mesper import Event
 
 
-class MoveSprite(Event):
+class MoveOnGrid(Event):
 
     def __init__(self, ent: int, movement: Tuple[int, int]):
         self.ent = ent

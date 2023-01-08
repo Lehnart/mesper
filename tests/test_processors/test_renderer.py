@@ -3,10 +3,10 @@ import time
 
 import pygame
 
-from engine.components.sprite import Sprite
-from engine.components.window import Window
-from engine.mesper import World
-from engine.processors.renderer import Renderer
+from components.sprite import Sprite
+from components.window import Window
+from mesper import World
+from processors.renderer import Renderer
 
 
 class TestRenderer:

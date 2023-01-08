@@ -1,6 +1,6 @@
 from typing import Tuple
 
-from engine.mesper import Event
+from mesper import Event
 
 
 class SetSpritePosition(Event):

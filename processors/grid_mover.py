@@ -1,6 +1,6 @@
-from engine.components.grid_position import GridPosition
-from engine.events.move_on_grid import MoveOnGrid
-from engine.mesper import Processor
+from components.grid_position import GridPosition
+from events.move_on_grid import MoveOnGrid
+from mesper import Processor
 
 
 class GridMover(Processor):

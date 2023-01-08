@@ -1,4 +1,4 @@
-from engine.mesper import Component
+from mesper import Component
 
 
 class GridPosition(Component):
