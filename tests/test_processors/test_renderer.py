@@ -43,7 +43,7 @@ class TestRenderer:
         assert len(renderer.last_time_drawn_dict.items()) == 1
         ent, next_last_drawn_time = list(renderer.last_time_drawn_dict.items())[0]
         assert ent == entity
-        assert next_last_drawn_time >= last_drawn_time + datetime.timedelta(seconds=(1. / fps))
+        assert next_last_drawn_time >= last_drawn_time + datetime.timedelta(seconds=1./fps)
 
     def test_sort_sprites(self):
         pygame.init()
