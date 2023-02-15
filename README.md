@@ -7,6 +7,6 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Lehnart_py-ecs&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Lehnart_py-ecs)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Lehnart_py-ecs&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Lehnart_py-ecs)
 
-# mester
+# mesper
 
 ECS engine mostly inspired by esper.
