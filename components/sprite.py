@@ -7,7 +7,7 @@ from ..mesper import Component
 
 class Sprite(Component):
 
-    def __init__(self, surface: pygame.Surface, top_left_position: Tuple[int, int], layer: int = 0):
+    def __init__(self, surface: pygame.Surface, top_left_position: Tuple[int, int] = (0,0), layer: int = 0):
         self.surface = surface
         self.top_left_position = top_left_position
         self.layer = layer

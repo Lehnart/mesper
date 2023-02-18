@@ -1,6 +1,5 @@
 from ..components.rectangle import Rectangle
 from ..components.sprite import Sprite
-from ..components.sprite_follow_rectangle import SpriteFollowRectangle
 from ..events.move_sprite import MoveSprite
 from ..events.set_sprite_position import SetSpritePosition
 from ..mesper import Processor
@@ -21,6 +20,6 @@ class SpriteMover(Processor):
             sprite_component = self.world.component_for_entity(set_sprite_pos_event.ent, Sprite)
             sprite_component.top_left_position = set_sprite_pos_event.pos
 
-        following_sprites = self.world.get_components(Rectangle, Sprite, SpriteFollowRectangle)
-        for _, [rect, sprite, _] in following_sprites:
+        following_sprites = self.world.get_components(Rectangle, Sprite)
+        for _, [rect, sprite] in following_sprites:
             sprite.top_left_position = (rect.top_left_x, rect.top_left_y)

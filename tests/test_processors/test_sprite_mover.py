@@ -2,7 +2,6 @@ import pygame
 
 from ...components.rectangle import Rectangle
 from ...components.sprite import Sprite
-from ...components.sprite_follow_rectangle import SpriteFollowRectangle
 from ...events.move_sprite import MoveSprite
 from ...mesper import World
 from ...processors.rectangle_mover import RectangleMover
@@ -30,7 +29,7 @@ class TestSpriteMover:
 
         rectangle_component = Rectangle(13, 27, 50, 100)
         surf = pygame.Surface((5, 5))
-        ent = world.create_entity(Sprite(surf, (10, 10)), rectangle_component, SpriteFollowRectangle())
+        ent = world.create_entity(Sprite(surf, (10, 10)), rectangle_component)
 
         world.add_processor(RectangleMover())
         world.add_processor(SpriteMover())
