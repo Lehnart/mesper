@@ -3,7 +3,7 @@ import pytest
 
 from ...components.keyboard_input import KeyboardInput
 from ...mesper import World, Event
-from ...processors.updater import Updater
+from ...processors.keyboard_updater import KeyboardUpdater
 
 
 class TestUpdater:
@@ -14,7 +14,7 @@ class TestUpdater:
         pygame.init()
 
         world = World()
-        updater = Updater()
+        updater = KeyboardUpdater()
         world.add_processor(updater)
         return world
 

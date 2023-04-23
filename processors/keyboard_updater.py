@@ -6,7 +6,7 @@ from ..components.keyboard_input import KeyboardInput
 from ..mesper import Processor
 
 
-class Updater(Processor):
+class KeyboardUpdater(Processor):
 
     def process(self):
 
